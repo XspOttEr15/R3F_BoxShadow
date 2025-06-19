@@ -1,0 +1,45 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.Buttons{
+  position: absolute;
+  z-index: 9999; 
+  left: 85%;
+  top: 90%;
+  display: flex;
+  gap: 20px;
+}
+.closeLeva {
+  padding: 10px;
+  border: solid 1px ;
+  border-radius: 10px ;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+.closeStats {
+  padding: 10px; 
+  border-radius: 10px;
+  border: solid 1px ;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+.closeStats:hover {
+  color: black;
+  background-color: aliceblue;
+}
+
+.closeLeva:hover {
+  color: black;
+  background-color: aliceblue;
+}
+
